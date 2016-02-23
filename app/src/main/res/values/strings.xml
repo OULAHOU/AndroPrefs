@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, Main!
+  </string>
+  <string name="app_name">JFTD2
+  </string>
+  <array name="key"> <!-- Petite=1, Moyenne=5, Grande=20 -->
+    <item>"Petite"
+    </item>
+    <item>"Moyenne"
+    </item>
+    <item>"Grande"
+    </item>
+  </array>
+  <array name="value">
+    <item>"1"
+    </item>
+    <item>"5"
+    </item>
+    <item>"20"
+    </item>
+  </array>
+</resources>

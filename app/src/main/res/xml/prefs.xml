@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:key="prefs">
+  
+  
+  <CheckBoxPreference android:title="Diffusion du login"
+	android:summaryOff="Ne pas diffuser" android:summaryOn="Diffuser"
+	android:key="diffuser">
+  </CheckBoxPreference>
+  <EditTextPreference android:summary="login d'authentification"
+		android:title="Login" android:key="login" android:dependency="diffuser">
+  </EditTextPreference>
+  <EditTextPreference android:title="Password"
+		android:key="password" android:dependency="diffuser">
+  </EditTextPreference>
+  <ListPreference android:title="Vitesse" 
+	            android:key="vitesse"
+	            android:entries="@array/key"
+                android:entryValues="@array/value"
+                android:dialogTitle="Choisir la vitesse:"
+                android:persistent="true">
+  </ListPreference>
+</PreferenceScreen>
